@@ -4,7 +4,7 @@ import { Component } from '../component';
  *	Note: since component names are not unique or even necessarily available, these are primarily a form of sharding.
  *	@private
  */
-const components = {};
+export const components = {};
 
 
 /** Reclaim a component for later re-use by the recycler. */
