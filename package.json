@@ -11,7 +11,7 @@
     "clean": "rimraf dist/ devtools.js devtools.js.map debug.js debug.js.map",
     "copy-flow-definition": "copyfiles -f src/preact.js.flow dist",
     "copy-typescript-definition": "copyfiles -f src/preact.d.ts dist",
-    "build": "npm-run-all --silent clean transpile copy-flow-definition copy-typescript-definition strip optimize minify size",
+    "build": "echo \"nothing to build\"",
     "flow": "flow",
     "transpile:main": "rollup -c config/rollup.config.js",
     "transpile:devtools": "rollup -c config/rollup.config.devtools.js",
